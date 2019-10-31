@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>BootstrapHomework</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+	<div style="background: #6a4d97; width: 100%; height: 100%;">
+		<nav class="navbar sticky-top navbar-expand-sm navbar-dark" style="background-color: #563e7c" ;>
+			<a class="navbar-brand" href="#">
+				<img src="bootstrap_logo.jpg" width="80" height="50" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" type="button" id="HomeButton" href="#">Home<span
+								class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Bootstrap Components
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown" id="DropdownButtons">
+							<a class="dropdown-item" type="button" data-toggle="collapse" data-target="#AlertContent"
+								href="#" aria-expanded="false" aria-controls="AlertContent">Alert</a>
+							<a class="dropdown-item" type="button" data-toggle="collapse" data-target="#CardContent"
+								href="#" aria-expanded="false" aria-controls="CardContent">Card</a>
+							<a class="dropdown-item" type="button" data-toggle="collapse" data-target="#CarouselContent"
+								href="#" aria-expanded="false" aria-controls="CarouselContent">Carousel</a>
+							<a class="dropdown-item" type="button" data-toggle="collapse" data-target="#DropdownContent"
+								href="#" aria-expanded="false" aria-controls="DropdownContent">Drowpdowns</a>
+							<a class="dropdown-item" type="button" data-toggle="collapse"
+								data-target="#JumbotronContent" href="#" aria-expanded="false"
+								aria-controls="JumbotronContent">Jumbotron</a>
+							<a class="dropdown-item" type="button" data-toggle="collapse" data-target="#NavbarContent"
+								href="#" aria-expanded="false" aria-controls="NavbarContent">Navbar</a>
+							<a class="dropdown-item" type="button" data-toggle="collapse"
+								data-target="#ListGroupContent" href="#" aria-expanded="false"
+								aria-controls="ListGroupContent">List group</a>
+							<a class="dropdown-item" type="button" data-toggle="collapse" data-target="#ModalContent"
+								href="#" aria-expanded="false" aria-controls="ModalContent">Modal</a>
+							<a class="dropdown-item" type="button" data-toggle="collapse"
+								data-target="#PaginationContent" href="#" aria-expanded="false"
+								aria-controls="PaginationContent">Pagination</a>
+							<a class="dropdown-item" type="button" data-toggle="collapse" data-target="#ToastsContent"
+								href="#" aria-expanded="false" aria-controls="ToastsContent">Toasts</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div id="homePageContent">
+			<p>
+				<div class="container h-100 d-flex justify-content-center">
+					<div class="jumbotron my-auto" style="background-color:  #6a4d97;">
+						<h1 class="display-3" style="color: white">Bootstrap Komponenten</h1>
+					</div>
+				</div>
+			</p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p>
+				<div class="container h-100 d-flex justify-content-center">
+					<div class="jumbotron my-auto" style="background-color:  #6a4d97;">
+						<h2 class="display-5" style="color: white; border-bottom: 5px solid white;">Scroll down!</h1>
+					</div>
+				</div>
+			</p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="d-flex justify-content-center">
+				<div class="row">
+					<div class="col d-sm-none d-none d-md-block" data-aos="fade-up-left" style="float: left;">
+						<div class="alert alert-primary" role="alert">
+							This is a primary alert—check it out!
+						</div>
+						<div class="alert alert-secondary" role="alert">
+							This is a secondary alert—check it out!
+						</div>
+						<div class="alert alert-success" role="alert">
+							This is a success alert—check it out!
+						</div>
+						<div class="alert alert-danger" role="alert">
+							This is a danger alert—check it out!
+						</div>
+						<div class="alert alert-warning" role="alert">
+							This is a warning alert—check it out!
+						</div>
+						<div class="alert alert-info" role="alert">
+							This is a info alert—check it out!
+						</div>
+						<div class="alert alert-light" role="alert">
+							This is a light alert—check it out!
+						</div>
+						<div class="alert alert-dark" role="alert">
+							This is a dark alert—check it out!
+						</div>
+					</div>
+					<div class="col d-block col-jus" data-aos="fade-up-right">
+						<button class="btn btn-light" data-toggle="collapse" data-target="#AlertContent" href="#"
+							aria-expanded="false" aria-controls="AlertContent" id="AlertButton">Alert</button>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="d-flex justify-content-center">
+				<div class="row">
+					<div class="col d-block justify-content-right" data-aos="fade-up"
+						data-aos-anchor-placement="top-bottom">
+						<button class="btn btn-light" data-toggle="collapse" data-target="#CardContent" href="#"
+							aria-expanded="false" aria-controls="CardContent" id="CardButton">Card</button>
+					</div>
+					<div class="col d-sm-none d-none d-md-block" data-aos="fade-up"
+						data-aos-anchor-placement="top-bottom">
+						<div class="card d-sm-none d-md-block" style="width:300px">
+							<img class="card-img-top" src="ExampleCard.JPG">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the
+									bulk of the card' s content.</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="d-flex justify-content-center">
+				<div class="row">
+					<div class="col d-sm-none d-none d-md-block" data-aos="zoom-in-up">
+						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block w-100" src="FirstSlide.JPG" alt="First slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="SecondSlide.JPG" alt="Second slide">
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+								data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls" role="button"
+								data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+					<div class="col d-block justify-content-right" data-aos="zoom-in-up">
+						<button class="btn btn-light" data-toggle="collapse" data-target="#CarouselContent" href="#"
+							aria-expanded="false" aria-controls="CarouselContent" id="CarouselButton">Carousel</button>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="d-flex justify-content-center">
+				<div class="row">
+					<div class="col d-block justify-content-right" data-aos="fade-left" data-aos-offset="300"
+						data-aos-easing="ease-in-sine">
+						<button class="btn btn-light" data-toggle="collapse" data-target="#DropdownContent" href="#"
+							aria-expanded="false" aria-controls="DropdownContent" id="DropdownButton">Dropdown</button>
+					</div>
+					<div class="col d-sm-none d-none d-md-block" data-aos="fade-right" data-aos-offset="300"
+						data-aos-easing="ease-in-sine">
+						<div class="dropdown">
+							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Dropdown button
+							</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="d-flex justify-content-center">
+				<div class="row">
+					<div class="col d-sm-none d-none d-md-block" data-aos="zoom-in-up">
+						<nav class="navbar sticky-top navbar-expand-sm navbar-dark" style="background-color: #563e7c" ;>
+							<a class="navbar-brand" href="#">
+								<img src="bootstrap_logo.jpg" width="80" height="50" alt="">
+							</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse"
+								data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav mr-auto">
+									<li class="nav-item active">
+										<a class="nav-link" type="button" id="HomeButton" href="#">Home<span
+												class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Bootstrap Components
+										</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+					<div class="col d-block justify-content-right" data-aos="zoom-in-up">
+						<button class="btn btn-light" data-toggle="collapse" data-target="#NavbarContent" href="#"
+							aria-expanded="false" aria-controls="NavbarContent" id="NavbarButton">Navbar</button>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="d-flex justify-content-center">
+				<div>
+					<div class="col" data-aos="zoom-out-up">
+						<button class="btn btn-light" data-toggle="collapse" data-target="#JumbotronContent" href="#"
+							aria-expanded="false" aria-controls="JumbotronContent"
+							id="JumbotronButton">Jumbotron</button>
+					</div>
+					<br>
+					<div class="col d-sm-none d-none d-md-block" data-aos="zoom-out-up">
+						<div class="jumbotron">
+							<h1 class="display-4">Hello, world!</h1>
+							<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling
+								extra
+								attention to featured content or information.</p>
+							<hr class="my-4">
+							<p>It uses utility classes for typography and spacing to space content out within the larger
+								container.</p>
+							<p class="lead">
+								<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="d-flex justify-content-center">
+				<div class="row">
+					<div class="col d-sm-none d-none d-md-block" data-aos="flip-left">
+						<ul class="list-group">
+							<li class="list-group-item">Cras justo odio</li>
+							<li class="list-group-item">Dapibus ac facilisis in</li>
+							<li class="list-group-item">Morbi leo risus</li>
+							<li class="list-group-item">Porta ac consectetur ac</li>
+							<li class="list-group-item">Vestibulum at eros</li>
+						</ul>
+					</div>
+					<div class="col d-block justify-content-right" data-aos="flip-right">
+						<button class="btn btn-light" data-toggle="collapse" data-target="#ListGroupContent" href="#"
+							aria-expanded="false" aria-controls="ListGroupContent" id="ListGroupButton">List
+							Group</button>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="d-flex justify-content-center">
+				<div class="row">
+					<div class="col d-block justify-content-right" data-aos="flip-up">
+						<button class="btn btn-light" data-toggle="collapse" data-target="#ModalContent" href="#"
+							aria-expanded="false" aria-controls="ModalContent" id="ModalButton">Modal</button>
+					</div>
+					<div class="col d-sm-none d-none d-md-block" data-aos="flip-up">
+						<button class="btn btn-light" data-toggle="collapse" data-target="#myModal" href="#"
+							aria-expanded="false" aria-controls="ModalContent" id="ModalPreviewButton">Vorschau
+							Modal</button>
+					</div>
+					<div class="collapse" id="myModal">
+						<div class="modal d-sm-none d-md-block" tabindex="-1" role="dialog">
+							data-backdrop="static" style="width: 300px; height: 100px;">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title">Modal Titel</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<p>Text des Modal.</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-primary">Button der nichts tut.</button>
+										<button type="button" class="btn btn-secondary"
+											data-dismiss="modal">Schließen</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="d-flex justify-content-center">
+				<div class="row">
+					<div class="col d-sm-none d-none d-md-block" data-aos="fade-right">
+						<nav aria-label="Page navigation example">
+							<ul class="pagination">
+								<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+								<li class="page-item"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item"><a class="page-link" href="#">Next</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col d-block justify-content-right" data-aos="fade-left">
+						<button class="btn btn-light" data-toggle="collapse" data-target="#PaginationContent" href="#"
+							aria-expanded="false" aria-controls="PaginationContent"
+							id="PaginationButton">Pagination</button>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="d-flex justify-content-center">
+				<div class="row ">
+					<div class="col d-block justify-content-right" data-aos="fade-left">
+						<button class="btn btn-light" data-toggle="collapse" data-target="#ToastContent" href="#"
+							aria-expanded="false" aria-controls="ToastContent" id="ToastButton">Toast</button>
+					</div>
+					<div class="col d-sm-none d-none d-md-block" data-aos="fade-right">
+						<img src="PreviewToast.JPG" class="img-fluid rounded">
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+		</div>
+
+		<div class="container" id="divs">
+			<div class="collapse" id="AlertContent">
+				<p>
+					<h1 style="color: white">
+						Alert
+					</h1>
+					<p>
+						<h2 style="color: white">
+							Über Alerts
+						</h2>
+						<p style="color: white">
+							Mit einem Alert können Sie kontextbezogene Rückmeldungen für typische Benutzeraktionen
+							bereitstellen. Hierfür gibt es vordefinierte Meldungen
+							wie z.B. "Warning" oder "Info" allerdings sind Meldungen auch für jede Textlänge sowie
+							eine optionale Schaltfläche zum Verwerfen verfügbar.
+						</p>
+					</p>
+				</p>
+				<p>
+					<h2 style="color: white">
+						alert.class
+					</h2>
+					<p style="color: white">
+						Für Alerts stehen vordefinierte Klassen zur Verfügung:
+						<ul style="color: white">
+							<li><a>alert-success</a></li>
+							<li><a>alert-info</a></li>
+							<li><a>alert-warning</a></li>
+							<li><a>alert-danger</a></li>
+							<li><a>alert-primary</a></li>
+							<li><a>alert-secondary</a></li>
+							<li><a>alert-dark</a></li>
+							<li><a>alert-light</a></li>
+						</ul>
+					</p>
+				</p>
+				<br>
+				<p>
+					<h2 style="color: white">
+						alert-link
+					</h2>
+					<p style="color: white">
+						Mit dem alert-link ist es möglich, farblich passende links innerhalb eines Alerts zu platzieren.
+					</p>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="CodeSnippetAlert-link.JPG" class="img-fluid">
+					</div>
+				</p>
+				<br>
+				<p>
+					<h2 style="color: white">
+						Erweiteter Inhalt
+					</h2>
+					<p style="color: white">
+						Es ist durchaus möglich, dass ein Alert andere HTML Elemente enthält wie zum Beispiel Absätze
+						oder Überschriften.
+					</p>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="CodeSnippetAlertAddContent.JPG" class="img-fluid">
+					</div>
+				</p>
+				<br>
+				<br>
+			</div>
+			<div class="collapse" id="CardContent">
+				<p>
+					<h1 style="color: white">
+						Card
+					</h1>
+				</p>
+				<p>
+					<h2 style="color: white">
+						Über Cards
+					</h2>
+					<p style="color: white">
+						Eine Card ist ein flexibler und erweiterbarer Inhaltscontainer.
+						Sie enthält Optionen für Kopf- und Fußzeilen, eine Vielzahl von Inhalten, kontextbezogene
+						Hintergrundfarben und leistungsstarke Anzeigeoptionen. Cards werden mit so wenig Aufschlag
+						und
+						Stilen wie möglich erstellt, bieten aber dennoch eine Menge Kontrolle und
+						Anpassungsmöglichkeiten.
+						Sie sind mit einer Flexbox ausgestattet und lassen sich leicht ausrichten und gut mit
+						anderen
+						Bootstrap-Komponenten kombinieren. Sie haben standardmäßig keinen Rand. Verwenden Sie daher
+						nach
+						Bedarf die Abstandshilfsprogramme. Cards haben zu Beginn keine feste Breite, daher füllen
+						sie natürlich die gesamte
+						Breite des übergeordneten Elements aus. Dies lässt sich mit den verschiedenen Größenoptionen
+						leicht anpassen.
+					</p>
+				</p>
+				<p>
+					<h2 style="color: white">
+						Inhalte
+					</h2>
+					<p style="color: white">
+						Für Cards gibt es verschiedene Möglichkeiten für Inhalte:
+						<ul style="color: white">
+							<li><a>.card-body:</a> Ist sozusagen die Inhaltsbox einer Card. Wird vor allem verwendet,
+								wenn man ein Padding braucht.</li>
+							<li><a>.card-title:</a> Hierdurch können der Card Titel hinzugefügt werden.</li>
+							<li><a>.card-subtitle: </a>Für Untertitel.</li>
+							<li><a>.card-link: </a> Um links in der Card unterzubringen.</li>
+							<li><a>.card-text: </a> Für normale Textelement in der Card.</li>
+							<li><a>.card-img-top: </a> Um ein Bild zum Beipiel oben in einer Card einzufügen.</li>
+							<br>
+							<a>Des weiteren kann man Cards noch <b> list groups</b> hinzufügen.</a>
+						</ul>
+					</p>
+					<br>
+					<h2 style="color: white">
+						Code Beispiele inklusive Vorschau:
+					</h2>
+					<br>
+					<li style="color: white;">
+						<h3 style="color: white">card-title, card-subtitle und card-link</h3>
+					</li>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="CardTitel.JPG" class="img-fluid">
+					</div>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="CodeSnippetCard-titel.JPG" class="img-fluid">
+					</div>
+					<br>
+					<br>
+					<li style="color: white;">
+						<h3 style="color: white">card-img-top</h3>
+					</li>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="CardImage.JPG" class="img-fluid">
+					</div>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="CodeSnippetCardImg.JPG" class="img-fluid">
+					</div>
+					<br>
+					<br>
+					<li style="color: white;">
+						<h3 style="color: white">Beispiel zu mehreren Elementen</h3>
+					</li>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="KitchenSinkCard.JPG" class="img-fluid">
+					</div>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="CodeSnippetKitchenSinkCard.JPG" class="img-fluid">
+					</div>
+				</p>
+				<br>
+				<br>
+			</div>
+			<div class="collapse" id="CarouselContent">
+				<p>
+					<h1 style="color: white">
+						Carousel
+					</h1>
+				</p>
+				<p>
+					<h2 style="color: white">
+						Über Carousel
+					</h2>
+					<p style="color: white">
+						Das Carousel ist eine Diashow zum Durchlaufen einer Reihe von Inhalten, die
+						mit CSS-3D-Transformationen und etwas JavaScript erstellt wurden. Es funktioniert
+						mit einer Reihe von Bildern, Texten oder benutzerdefinierten Markups. Es enthält auch
+						Unterstützung für vorherige / nächste Steuerelemente und Anzeigen.
+						In Browsern, in denen das Page Visibility API unterstützt wird, verhindert das Karussell das
+						Verrutschen, wenn die Webseite für den Benutzer nicht sichtbar ist (z. B. wenn die
+						Registerkarte des
+						Browsers inaktiv ist, das Browserfenster minimiert ist usw.).
+						Bitte beachten Sie, dass verschachtelte Carousel nicht unterstützt werden und Carousel im
+						Allgemeinen nicht den Barrierefreiheitsstandards entsprechen.
+						Carousel normalisieren die Objektträgerabmessungen nicht automatisch. Daher müssen Sie
+						möglicherweise
+						benutzerdefinierte Stile verwenden, um die Größe des Inhalts entsprechend anzupassen.
+						Carousel unterstützen
+						zwar die vorherigen / nächsten Bedienelemente und Anzeigen, sind jedoch nicht ausdrücklich
+						erforderlich.
+						Stellen Sie sicher, dass Sie eine eindeutige ID für optionale Steuerelemente im Karussell
+						festlegen,
+						insbesondere, wenn Sie mehrere Karusselle auf einer Seite verwenden.
+					</p>
+				</p>
+				<p>
+					<h2 style="color: white">
+						Nur Slides
+					</h2>
+					<p style="color: white">
+						Hier ist ein Karussell mit nur Dias. Beachten Sie das Vorhandensein von
+						.d-block und .img-fluid auf Karussellbildern, um die Standardausrichtung des Browsers zu
+						verhindern.
+					</p>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="SlidesOnlyCodeSnippet.JPG" class="img-fluid">
+					</div>>
+				</p>
+				<br>
+				<p>
+					<h2 style="color: white">
+						Mit Controls
+					</h2>
+					<p style="color: white">
+						Hinzufügen in den vorherigen und nächsten Steuerelementen:
+					</p>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="SlidesWithControlsCodeSnippet.JPG" class="img-fluid">
+					</div>
+				</p>
+				<br>
+				<p>
+					<h2 style="color: white">
+						Mit Indikatoren
+					</h2>
+					<p style="color: white">
+						Sie können die Anzeigen auch neben den Steuerelementen zum Carousel hinzufügen.
+					</p>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="CarouselWithIndicatorsCodeSnippet.JPG" class="img-fluid">
+					</div>
+				</p>
+				<br>
+				<p>
+					<h2 style="color: white">
+						Mit Beschriftungen
+					</h2>
+					<p style="color: white">
+						Fügen Sie Ihren Folien mit dem .carousel-caption-Element innerhalb eines beliebigen
+						.carousel-Elements
+						einfach Bildunterschriften hinzu. Sie können in kleineren Ansichtsfenstern
+						(siehe Abbildung unten) mit optionalen Anzeigeprogrammen problemlos ausgeblendet werden. Wir
+						verstecken
+						sie zunächst mit .d-none und bringen sie auf mittelgroßen Geräten mit .d-md-block zurück.
+					</p>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="CodeSnippetCarouselWithCaptions.JPG" class="img-fluid">
+					</div>
+				</p>
+				<p>
+					<h2 style="color: white">
+						Beispiel Vorschau für Carousel mit Controls, Indikatoren und Beschriftung:
+					</h2>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="CodeSnippetCarouselPreview.JPG" class="img-fluid">
+					</div>
+				</p>
+				<br>
+				<br>
+			</div>
+			<div class="collapse" id="DropdownContent">
+				<p>
+					<h1 style="color: white">
+						Dropdown
+					</h1>
+				</p>
+				<p>
+					<h2 style="color: white">
+						Über Dropdowns
+					</h2>
+					<p style="color: white">
+						Dropdowns sind umschaltbare, kontextbezogene Overlays zum Anzeigen von Linklisten und mehr.
+						Sie werden mit dem im Lieferumfang enthaltenen JavaScript-Dropdown-Plugin "Bootstrap"
+						interaktiv
+						gemacht. Sie werden durch Klicken und nicht durch Schweben umgeschaltet. Dies ist eine
+						beabsichtigte
+						Entwurfsentscheidung.Dropdowns basieren auf einer Bibliothek von Drittanbietern, Popper.js,
+						die eine
+						dynamische Positionierung und Erkennung von Ansichtsfenstern bietet. Stellen Sie sicher,
+						dass Sie popper.min.js
+						vor dem JavaScript von Bootstrap einschließen, oder verwenden Sie bootstrap.bundle.min.js /
+						bootstrap.bundle.js, das
+						Popper.js enthält. Popper.js wird jedoch nicht zum Positionieren von Dropdowns in
+						Navigationsleisten verwendet, da keine
+						dynamische Positionierung erforderlich ist.
+					</p>
+				</p>
+				<p>
+					<h2 style="color: white">
+						Einzelne Dropdown Schaltfläche
+					</h2>
+					<p style="color: white">
+						Jede einzelne .btn-Datei kann mit einigen Markup-Änderungen in ein Dropdown-Menü
+						umgewandelt werden. So können Sie sie für beide Button-Elemente verwenden:
+						<br>
+						<div class="d-sm-none d-md-block">
+							<img src="CodeSnippetSingleDropdown.JPG" class="img-fluid">
+						</div>
+						<br>
+						<div class="d-sm-none d-md-block">
+							<img src="PreviewSingelDropdown.JPG" class="img-fluid">
+						</div>
+					</p>
+					<br>
+				</p>
+				<br>
+				<p>
+					<h2 style="color: white">
+						Dropdown mit geteiltem Button
+					</h2>
+					<p style="color: white">
+						In ähnlicher Weise können Sie Dropdown-Listen mit geteilten Schaltflächen mit praktisch
+						demselben
+						Markup wie Dropdown-Listen mit einzelnen Schaltflächen erstellen, jedoch mit dem Zusatz
+						.dropdown-toggle-split,
+						um den richtigen Abstand um das Dropdown-Caret zu gewährleisten.Wir verwenden diese zusätzliche
+						Klasse,
+						um die horizontale Polsterung auf beiden Seiten des Einfügemarke um 25% zu reduzieren und den
+						linken Rand zu entfernen,
+						der für reguläre Dropdown-Schaltflächen hinzugefügt wurde. Durch diese zusätzlichen Änderungen
+						bleibt das Einfügemarke in
+						der geteilten Schaltfläche zentriert, und neben der Hauptschaltfläche wird ein Trefferbereich
+						mit einer angemesseneren Größe angezeigt.
+					</p>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="DropdownSplitCodeSnippet.JPG" class="img-fluid">
+					</div>
+					<br>
+					<div class="d-sm-none d-md-block">
+						<img src="SplitDropdown.JPG" class="img-fluid">
+					</div>
+				</p>
+				<br>
+				<br>
+				<br>
+			</div>
+			<div class="collapse" id="NavbarContent">
+				<p>
+					<h1 style="color: white">
+						Navbar
+					</h1>
+					<p>
+						<h2 style="color: white">
+							Über Navbars
+						</h2>
+						<p style="color: white">
+							Dokumentation und Beispiele für den leistungsstarken, reaktionsschnellen Navigations-Header
+							von Bootstrap, die Navigationsleiste. Beinhaltet Unterstützung für Branding, Navigation und
+							mehr, einschließlich Unterstützung für unser Collapse-Plugin.
+						</p>
+					</p>
+				</p>
+				<p>
+					<h2 style="color: white">
+						Wie es funktioniert
+					</h2>
+					<p style="color: white">
+						Das brauchen Sie für eine funktionierende Navbar:
+						<ul style="color: white">
+							<li>Für Navigationsleisten ist ein Umbruch von .navbar mit .navbar-expand {-sm | -md | -lg |
+								-xl} erforderlich, damit die Klassen für auf das Reduzieren des Fenstert und das
+								Farbschema reagieren können.</li>
+							<li>Navigationsleisten und deren Inhalt sind standardmäßig flüssig. Verwenden Sie optionale
+								Behälter, um die horizontale Breite zu begrenzen.</li>
+							<li>Verwenden Sie unsere Dienstprogrammklassen "Abstand" und "Flex", um den Abstand und die
+								Ausrichtung innerhalb von Navigationsleisten zu steuern.</li>
+							<li>Navigationsleisten reagieren standardmäßig, Sie können sie jedoch problemlos ändern, um
+								dies zu ändern. Das Reaktionsverhalten hängt von unserem Collapse JavaScript-Plugin ab.
+							</li>
+							<li>Navigationsleisten werden beim Drucken standardmäßig ausgeblendet. Erzwingen Sie das
+								Drucken der Dateien, indem Sie der .navbar .d-print hinzufügen. Siehe die
+								Anzeige-Dienstprogrammklasse.
+							</li>
+							<li>Stellen Sie die Barrierefreiheit sicher, indem Sie ein .nav-Element verwenden, oder
+								fügen Sie bei Verwendung eines allgemeineren Elements wie .div jeder
+								Navigationsleiste eine role = "navigation" hinzu, um sie explizit als
+								Orientierungspunkt für Benutzer von Hilfstechnologien zu kennzeichnen.
+							</li>
+							<br>
+						</ul>
+					</p>
+					<br>
+					<h2 style="color: white">
+						Unterstützte Elemente:
+					</h2>
+					<ul style="color: white">
+						<li>.navbar-brand: für Name von Produkten.</li>
+						<li>.navbar-nav: für eine Navigation mit voller Höhe und geringem Gewicht (einschließlich
+							Unterstützung für Dropdowns).</li>
+						<li>.navbar-toggler: zur Verwendung mit unserem Einklapp-Plugin und anderen Verhaltensweisen zum
+							Umschalten der Navigation.</li>
+						<li>.form-inline: für alle Formularsteuerelemente und Aktionen.</li>
+						<li>.navbar-text: zum Hinzufügen vertikal zentrierter Textzeichenfolgen.</li>
+						<li>.collapse.navbar-collapse: zum Gruppieren und Ausblenden von Navigationsleisteninhalten nach
+							einem übergeordneten Haltepunkt.</li>
+						<br>
+					</ul>
+					<p>
+						<h2 style="color: white">
+							Navbar Brand und Bilder
+						</h2>
+						<p style="color: white">
+							Die .navbar-brand kann auf die meisten Elemente angewendet werden, ein Anker funktioniert
+							jedoch am besten, da für einige Elemente möglicherweise Dienstprogrammklassen oder
+							benutzerdefinierte Stile erforderlich sind. Das Hinzufügen von Bildern zur .navbar-brand
+							erfordert wahrscheinlich immer benutzerdefinierte Stile oder Hilfsprogramme, um die richtige
+							Größe zu erhalten. Hier ein Beispiel zur Veranschaulichung.
+							<br>
+							<div class="d-sm-none d-md-block">
+								<img src="NavbarCodeSnippetNavbarbrand.JPG" class="img-fluid">
+							</div>
+							<br>
+							<div class="d-sm-none d-md-block">
+								<img src="NavbarBrandPreview.JPG" class="img-fluid">
+							</div>
+						</p>
+						<br>
+					</p>
+					<p>
+						<h2 style="color: white">
+							.nav-item
+						</h2>
+						<p style="color: white">
+							Navigationslinks bauen auf den .nav-Optionen mit einer eigenen Modifiziererklasse auf
+							und erfordern die Verwendung von Togglerklassen für ein korrektes responsives Styling. Die
+							Navigation in Navigationsleisten nimmt außerdem immer mehr Platz in der Horizontalen ein,
+							damit der Inhalt der Navigationsleiste sicher ausgerichtet bleibt.
+							Ein Beispiel hierfür sehen Sie oben auf dieser Seite!
+							<br>
+							<div class="d-sm-none d-md-block">
+								<img src="CodeSnippetNavbarItem.JPG" class="img-fluid">
+							</div>
+						</p>
+						<br>
+					</p>
+					<p>
+						<h2 style="color: white">
+							Farbschema
+						</h2>
+						<p style="color: white">
+							Das Farben der Navigationsleiste war dank der Kombination von Farb-Klassen und
+							Hilfsprogrammen für Hintergrundfarben noch nie einfacher. Wählen Sie .navbar-hell für helle
+							Hintergrundfarben oder .navbar-dunkel für dunkle Hintergrundfarben. Passen Sie dann mit den
+							Dienstprogrammen .bg- * an.
+						</p>
+						<br>
+					</p>
+					<p>
+						<h2 style="color: white">
+							Positionierung
+						</h2>
+						<p style="color: white">
+							Verwenden Sie die Positionseinstellungen, um Navigationsleisten an nicht statischen
+							Positionen zu platzieren. Wählen Sie zwischen „Oben fixiert“, „Unten fixiert“ oder „Oben
+							fixiert“ (scrollt mit der Seite, bis sie oben ankommt, und bleibt dort). Feste Position der
+							Navigationsleisten: Fest, dh sie werden aus dem normalen Fluss des DOM gezogen und erfordern
+							möglicherweise benutzerdefiniertes CSS (z. B. Auffüllen des .body), um eine Überlappung mit
+							anderen Elementen zu verhindern.
+							Beachten Sie auch, dass .sticky-top die Position "sticky" verwendet, die nicht in allen
+							Browsern vollständig unterstützt wird.
+							Beispiel Code:
+							<br>
+							<div class="d-sm-none d-md-block">
+								<img src="NavbarPositionCodeSnippet.JPG" class="img-fluid">
+							</div>
+						</p>
+						<br>
+					</p>
+					<br>
+					<br>
+			</div>
+			<div class="collapse" id="JumbotronContent" style="background: #6a4d97;">
+				<p>
+					<h1 style="color: white">
+						Jumbotron
+					</h1>
+					<p>
+						<h2 style="color: white">
+							Über Jumbotrons
+						</h2>
+						<p style="color: white">
+							Eine leichte, flexible Komponente, die optional das gesamte Ansichtsfenster erweitern kann,
+							um wichtige Marketingbotschaften auf Ihrer Website zu präsentieren.
+						</p>
+						<br>
+						<div class="d-sm-none d-md-block">
+							<img src="PreviewJumbotron.JPG" class="img-fluid">
+						</div>
+						<br>
+						<div class="d-sm-none d-md-block">
+							<img src="CodeSnippetJumbotron.JPG" class="img-fluid">
+						</div>
+						<br>
+					</p>
+				</p>
+				<br>
+				<br>
+				<br>
+			</div>
+			<div class="collapse" id="ListGroupContent">
+				<p>
+					<h1 style="color: white">
+						List Group
+					</h1>
+					<p>
+						<h2 style="color: white">
+							Über List Groups
+						</h2>
+						<p style="color: white">
+							Listengruppen sind eine flexible und leistungsstarke Komponente zum Anzeigen einer Reihe von
+							Inhalten. Ändern und erweitern Sie sie, um so gut wie jeden Inhalt zu unterstützen.
+						</p>
+					</p>
+				</p>
+				<p>
+					<h2 style="color: white">
+						Basics
+					</h2>
+					<p style="color: white">
+						<div class="d-sm-none d-md-block">
+							<img src="CodeSnippetListGroupBasics.JPG" class="img-fluid">
+						</div>
+						<br>
+						<div class="d-sm-none d-md-block">
+							<img src="PreviewListGroupBasics.JPG" class="img-fluid">
+						</div>
+					</p>
+					<br>
+					<h2 style="color: white">
+						Aktive List Group Elemente
+					</h2>
+					<p style="color: white">
+						Füge .active zu einem .list-Gruppenelement hinzu, um die aktuell aktive Auswahl anzuzeigen.
+					</p>
+					<p>
+						<h2 style="color: white">
+							Deaktivierte List Group Elemente
+						</h2>
+						<p style="color: white">
+							Füge .disabled zu einem .list-group-Element hinzu, damit es deaktiviert erscheint. Beachten
+							Sie, dass für einige Elemente mit der Erweiterung .disabled auch benutzerdefiniertes
+							JavaScript erforderlich ist, um ihre Klickereignisse (z. B. Links) vollständig zu
+							deaktivieren.
+						</p>
+						<br>
+					</p>
+					<p>
+						<h2 style="color: white">
+							Links und Buttons in List Groups
+						</h2>
+						<p style="color: white">
+							Verwenden Sie .a s oder .button's, um aktivierbare Listengruppenelemente mit Hover-,
+							Deaktivierungs- und Aktivierungsstatus zu erstellen, indem Sie die Aktion
+							.list-group-item hinzufügen. Wir trennen diese Pseudoklassen, um sicherzustellen,
+							dass Listengruppen, die aus nicht interaktiven Elementen (wie .li's oder .div's)
+							bestehen, keine Klick- oder Tap-Vorteile bieten.
+						</p>
+						<br>
+					</p>
+					<p>
+						<h2 style="color: white">
+							Flush
+						</h2>
+						<p style="color: white">
+							Fügen Sie .list-group-flush hinzu, um einige Ränder und abgerundete Ecken zu entfernen und
+							Listengruppenelemente in einem übergeordneten Container (z. B. Karten) randlos darzustellen.
+						</p>
+						<br>
+					</p>
+					<p>
+						<h2 style="color: white">
+							Kontextbezogene Klassen
+						</h2>
+						<p style="color: white">
+							Verwenden Sie Kontextklassen, um Listenelemente mit einem statusbezogenen Hintergrund und
+							einer statusbezogenen Farbe zu formatieren.
+							<br>
+							<div class="d-sm-none d-md-block">
+								<img src="PreviewListGroupContextClasses.JPG" class="img-fluid">
+							</div>
+						</p>
+						<br>
+					</p>
+			</div>
+			<div class="collapse" id="ModalContent">
+				<p>
+					<h1 style="color: white">
+						Modal
+					</h1>
+					<p>
+						<h2 style="color: white">
+							Über Modals
+						</h2>
+						<p style="color: white">
+							Verwenden Sie das modale JavaScript-Plugin von Bootstrap, um Ihrer Site Dialogfelder für
+							Leuchtkästen, Benutzerbenachrichtigungen oder vollständig benutzerdefinierten Inhalt
+							hinzuzufügen.
+						</p>
+					</p>
+				</p>
+				<p>
+					<h2 style="color: white">
+						Wie sie funktionieren
+					</h2>
+					<p style="color: white">
+						Das brauchen Sie für eine funktionierende Navbar:
+						<ul style="color: white">
+							<li>Modals werden mit HTML, CSS und JavaScript erstellt. Sie befinden sich über allen
+								anderen Elementen im Dokument und entfernen den Bildlauf vom
+								.body, sodass der modale Inhalt stattdessen einen Bildlauf durchführt.</li>
+							<li>Durch Klicken auf den modalen „Hintergrund“ wird der modale automatisch geschlossen.
+							</li>
+							<li>Bootstrap unterstützt jeweils nur ein modales Fenster. Geschachtelte Modals werden nicht
+								unterstützt, da man der Meinung ist, dass sie eine schlechte Benutzererfahrung
+								darstellen.</li>
+							<li>Modals verwenden Position: Fixed, was manchmal ein bisschen spezifisch für das Rendering
+								sein kann. Platzieren Sie Ihren modalen HTML-Code nach Möglichkeit an einer
+								erstklassigen Position, um mögliche Interferenzen durch andere Elemente zu vermeiden.
+								Beim Verschachteln eines .modal-Objekts in ein anderes festes Element treten
+								wahrscheinlich Probleme auf.
+							</li>
+							<li>Auch hier gibt es aufgrund der Position: behoben einige Einschränkungen bei der
+								Verwendung von Modals auf Mobilgeräten. Weitere Informationen finden Sie in unseren
+								Dokumenten zur Browserunterstützung.
+							</li>
+							<br>
+						</ul>
+					</p>
+					<br>
+					<h2 style="color: white">
+						Komponenten
+					</h2>
+					<p style="color: white">
+						Unten sehen Sie ein statisches modales Beispiel (dh Position und Anzeige wurden überschrieben).
+						Enthalten sind der modale Header, der modale Body (zum Auffüllen erforderlich) und der modale
+						Footer (optional). Wir bitten Sie, modale Header mit Entlassungsaktionen einzuschließen, wann
+						immer dies möglich ist, oder eine andere explizite Entlassungsaktion bereitzustellen.
+					</p>
+					<p style="color: white">
+						<div class="d-sm-none d-md-block">
+							<img src="CodeSnippetModal.JPG" class="img-fluid">
+						</div>
+						<br>
+						<div class="d-sm-none d-md-block">
+							<img src="PreviewModal.JPG" class="img-fluid">
+						</div>
+					</p>
+					<p>
+						<h2 style="color: white">
+							Positionierung und Scrollen
+						</h2>
+						<p style="color: white">
+							Scrolling: Wenn die Inhalte für das Ansichtsfenster oder das Gerät des Benutzers zu lang
+							werden,
+							werden sie unabhängig von der Seite selbst verschoben. Hinsichtlich der Positionierung:
+							Fügen Sie .modal-dialog-centered zu
+							.modal-dialog hinzu, um das Modal vertikal zu zentrieren.
+						</p>
+						<br>
+					</p>
+					<p>
+						<h2 style="color: white">
+							Tooltips
+						</h2>
+						<p style="color: white">
+							Tooltips und Popovers können nach Bedarf in Modals platziert werden. Wenn Modals geschlossen
+							werden, werden alle darin enthaltenen QuickInfos und Popovers ebenfalls automatisch
+							geschlossen.
+						</p>
+						<br>
+					</p>
+			</div>
+			<div class="collapse" id="PaginationContent">
+				<p>
+					<h1 style="color: white">
+						Pagination
+					</h1>
+					<p>
+						<h2 style="color: white">
+							Über Pagination
+						</h2>
+						<p style="color: white">
+							Wir verwenden einen großen Block verbundener Links für unsere Paginierung, sodass Links nur
+							schwer zu übersehen sind und problemlos skaliert werden können - und dies bei großen
+							Trefferflächen. Die Paginierung wird mit Listen-HTML-Elementen erstellt, sodass Screenreader
+							die Anzahl der verfügbaren Links anzeigen können. Verwenden Sie ein umschließendes .nav
+							-Element, um es als Navigationsabschnitt für Screenreader und andere unterstützende
+							Technologien zu kennzeichnen.
+
+							Da Seiten wahrscheinlich mehr als einen solchen Navigationsabschnitt haben, ist es
+							ratsam, eine beschreibende Arienbezeichnung für das .nav bereitzustellen, um dessen
+							Zweck widerzuspiegeln. Wenn zum Beispiel die Paginierungskomponente zum Navigieren
+							zwischen einer Reihe von Suchergebnissen verwendet wird, könnte eine geeignete
+							Bezeichnung aria-label = "Suchergebnisseiten" sein.
+						</p>
+					</p>
+				</p>
+				<p>
+					<h2 style="color: white">
+						Icons
+					</h2>
+					<p style="color: white">
+						Möchten Sie ein Symbol oder ein Symbol anstelle von Text für einige Paginierungslinks verwenden?
+						Stellen Sie sicher, dass der Screenreader mit den Attributen aria und dem Dienstprogramm .sr
+						only ordnungsgemäß unterstützt wird.
+					</p>
+					<br>
+					<h2 style="color: white">
+						Aktivieren und Deaktivieren
+					</h2>
+					<p style="color: white">
+						Paginierungslinks können für verschiedene Umstände angepasst werden. Verwenden Sie .disabled für
+						Links, die als nicht klickbar und .active zur Anzeige der aktuellen Seite angezeigt
+						werden.Während die .disabled-Klasse Zeigerereignisse verwendet: none, um die Linkfunktionalität
+						von .a's zu deaktivieren, ist diese CSS-Eigenschaft noch nicht standardisiert und berücksichtigt
+						die Tastaturnavigation nicht. Aus diesem Grund sollten Sie deaktivierten Links immer
+						tabindex = "- 1" hinzufügen und benutzerdefiniertes JavaScript verwenden, um deren
+						Funktionalität vollständig zu deaktivieren.
+					</p>
+					<p>
+						<h2 style="color: white">
+							Beispiel für Pagination:
+						</h2>
+						<p style="color: white">
+							<div class="d-sm-none d-md-block">
+								<img src="CodeSnippetPagination.JPG" class="img-fluid">
+							</div>
+							<br>
+							<div class="d-sm-none d-md-block">
+								<img src="PreviewPagination.JPG" class="img-fluid">
+							</div>
+						</p>
+					</p>
+					<br>
+					<br>
+					<br>
+			</div>
+			<div class="collapse" id="ToastsContent">
+				<p>
+					<h1 style="color: white">
+						Toasts
+					</h1>
+					<p>
+						<h2 style="color: white">
+							Über Toasts
+						</h2>
+						<p style="color: white">
+							Push-Benachrichtigungen an Ihre Besucher mit einem Toast, einer einfachen und leicht
+							anpassbaren Warnmeldung. Toasts sind einfache Benachrichtigungen, die die von Mobil- und
+							Desktop-Betriebssystemen
+							verbreiteten Push-Benachrichtigungen imitieren sollen. Sie sind mit einer Flexbox
+							ausgestattet und daher einfach auszurichten und zu positionieren.
+						</p>
+					</p>
+				</p>
+				<p>
+					<h2 style="color: white">
+						Basics
+					</h2>
+					<p style="color: white">
+						Um erweiterbare und vorhersehbare Toasts zu fördern, empfehlen wir einen Header und einen Body.
+						Toast-Header verwenden display: flex und ermöglichen dank unserer Dienstprogramme margin und
+						flexbox die einfache Ausrichtung von Inhalten. Toasts sind so flexibel, wie Sie es brauchen, und
+						erfordern nur sehr wenig Aufschlag. Zumindest
+						benötigen wir ein einzelnes Element, um Ihren "gerösteten" Inhalt zu enthalten, und fordern Sie
+						nachdrücklich zum Schließen auf.
+						<p style="color: white">
+							<div class="d-sm-none d-md-block">
+								<img src="CodeSnippetToast.JPG" class="img-fluid">
+							</div>
+							<br>
+							<div class="d-sm-none d-md-block">
+								<img src="PreviewToast.JPG" class="img-fluid">
+							</div>
+						</p>
+					</p>
+					<br>
+					<h2 style="color: white">
+						Durchscheinend
+					</h2>
+					<p style="color: white">
+						Toasts sind ebenfalls leicht durchscheinend, sodass sie über alles, worüber sie erscheinen
+						mögen, übergehen. Bei Browsern, die die Hintergrundfilter-CSS-Eigenschaft unterstützen, wird
+						auch versucht, die Elemente unter einem Toast zu verwischen.
+					</p>
+					<p>
+						<h2 style="color: white">
+							Stacking
+						</h2>
+						<p style="color: white">
+							Wenn Sie mehrere Toasts haben, stapeln sich diese automatisch standardmäßig vertikal in
+							lesbarer Weise.
+						</p>
+					</p>
+					<h2 style="color: white">
+						Positionierung
+					</h2>
+					<p style="color: white">
+						Platzieren Sie Toasts mit benutzerdefiniertem CSS nach Bedarf. Das obere rechte Feld wird häufig
+						für Benachrichtigungen verwendet, ebenso wie das obere mittlere Feld. Wenn Sie immer nur einen
+						Toast gleichzeitig anzeigen möchten, platzieren Sie die Positionierungsstile direkt auf dem
+						Toast.
+					</p>
+					<br>
+					<br>
+					<br>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script src ="jQuery.js"></script>
+</body>
+
+</html>
